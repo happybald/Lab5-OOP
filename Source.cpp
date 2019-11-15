@@ -325,7 +325,6 @@ int main() {
 	int ind;
 	MainCost Main(3);
 	MainCost Main1(Main);
-	double total = Main.AvgGarmonichne((double)Main.getSize(), Main.getFlatPayList());
 	do {
 		cout << "1. Show all FlatPays;" << endl;
 		cin >> ind;
